@@ -2,4 +2,8 @@ public class ApexBasicClass{
   public static void testFirstMethod(){
     System.debug('This is the test for the only..!');
   }
+  public static void createSumMethod(integer num1, integer num2){
+    integer result = num1 + num2;
+    System.debug('Addition Of Two No => '+result);
+  }
 }
